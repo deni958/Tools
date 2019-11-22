@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 #Recode Monggoh
-clear
+
 
 #Variables
 b="\033[1m"
@@ -64,28 +64,30 @@ echo "+===================================+" | lolcat
    echo "╭─Mr.Tm" |lolcat
 read -p "╰─#" pil;
 
+
+
 #Hack Cctv
+
 case $pil in
 1)git clone https://github.com/kancotdiq/ipcs
-cd ipcs $HOME
-python2 scan.py $HOME
+cd ipcs
+python2 scan.py
 
 ;;
-
 
 #Perusak Hp
 
 2) git clone https://github.com/justahackers/perusak
-cd perusak $HOME
-python2 perusak.py $HOME
+cd perusak
+python2 perusak.py
 
 ;;
 
 #Virus AOC
 
 3) git clone https://github.com/rootM3eX/AOCVirus
-cd AOCVirus $HOME
-sh aocvirus.sh $HOME
+cd AOCVirus
+sh aocvirus.sh
 
 ;;
 
@@ -97,32 +99,37 @@ msfconsole
 
 ;;                                                                                                                                    #Phising All Game
 
+#,Phising All Game
+
 5) git clone https://github.com/InYourG00D1/ScPh1s1ng
-cd ScPh1s1ng $HOME
-sh 6.sh $HOME
+cd ScPh1s1ng
+sh 6.sh
 
 ;;
 
 #Kereta Api
+
 6) pkg install sl
 sl
-
 
 ;;
 
 #DDOS ATTACK
 7) git clone https://github.com/banghyuu/ddosWD
-cd ddosWD $HOME
-sh Ddos.sh $HOME
+cd ddosWD
+sh Ddos.sh
 
 ;;
 
 #Musik Youtube
 8) git clone https://github.com/mps-youtube/mps-youtube
-cd mps-youtube $HOME
-mpsyt $HOME
+cd mps-youtube
+mpsyt
 
-;;#Musik sdcard
+
+;;
+
+#Musik sdcard
 9) pkg install mpv
 cd /sdcard/musik
 echo $b "[1] Pastikan lagu anda berada di memori internal" |lolcat
