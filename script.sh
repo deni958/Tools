@@ -32,9 +32,7 @@ echo $b "[#]> Terima Kasih Telah Menggunakan Tools Ini"
 exit
 }
 
-lagi=1
-while  [ $lagi -lt 5 ] ;
-do
+
 echo""
 toilet -f standard MR.T3MON -F gay
 echo "+============================================+" |lolcat
